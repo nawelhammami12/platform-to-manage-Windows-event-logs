@@ -1,0 +1,29 @@
+.log-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  table-layout: fixed; /* Fixe la largeur des colonnes */
+}
+
+.log-table th,
+.log-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.log-table th {
+  background-color: #f2f2f2;
+  color: black;
+}
+
+.log-table td {
+  word-wrap: break-word; /* Permet au texte long de passer à la ligne */
+}
+
+.log-table .description-cell {
+  max-width: 300px; /* Largeur maximale pour la cellule de description */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Ajoute des points de suspension pour le texte trop long */
+  white-space: nowrap; /* Empêche le texte de passer à la ligne */
+}

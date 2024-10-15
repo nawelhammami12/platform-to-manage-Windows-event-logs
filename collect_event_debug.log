@@ -1,0 +1,13 @@
+DEBUG:root:Script start
+DEBUG:pymongo.connection:{"clientId": {"$oid": "66a224df965326bfe697f72c"}, "message": "Connection pool created", "serverHost": "localhost", "serverPort": 27017}
+DEBUG:root:Connection to MongoDB successful
+DEBUG:pymongo.connection:{"clientId": {"$oid": "66a224df965326bfe697f72c"}, "message": "Connection pool ready", "serverHost": "localhost", "serverPort": 27017}
+DEBUG:root:Total number of event log records: 25056
+DEBUG:pymongo.serverSelection:{"message": "Server selection started", "selector": "<function writable_server_selector at 0x000001F766959E40>", "operation": "insert", "operationId": 460455477, "topologyDescription": "<TopologyDescription id: 66a224df965326bfe697f72c, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.014999999999417923>]>", "clientId": {"$oid": "66a224df965326bfe697f72c"}}
+DEBUG:pymongo.serverSelection:{"message": "Server selection succeeded", "selector": "<function writable_server_selector at 0x000001F766959E40>", "operation": "insert", "operationId": 460455477, "topologyDescription": "<TopologyDescription id: 66a224df965326bfe697f72c, topology_type: Single, servers: [<ServerDescription ('localhost', 27017) server_type: Standalone, rtt: 0.014999999999417923>]>", "clientId": {"$oid": "66a224df965326bfe697f72c"}, "serverHost": "localhost", "serverPort": 27017}
+DEBUG:pymongo.connection:{"clientId": {"$oid": "66a224df965326bfe697f72c"}, "message": "Connection checkout started", "serverHost": "localhost", "serverPort": 27017}
+DEBUG:pymongo.connection:{"clientId": {"$oid": "66a224df965326bfe697f72c"}, "message": "Connection created", "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1}
+DEBUG:pymongo.connection:{"clientId": {"$oid": "66a224df965326bfe697f72c"}, "message": "Connection closed", "serverHost": "localhost", "serverPort": 27017, "driverConnectionId": 1, "reason": "An error occurred while using the connection", "error": "error"}
+DEBUG:pymongo.connection:{"clientId": {"$oid": "66a224df965326bfe697f72c"}, "message": "Connection checkout failed", "serverHost": "localhost", "serverPort": 27017, "reason": "An error occurred while trying to establish a new connection", "error": "connectionError", "durationMS": 0.0629999999946449}
+DEBUG:pymongo.connection:{"clientId": {"$oid": "66a224df965326bfe697f72c"}, "message": "Connection pool cleared", "serverHost": "localhost", "serverPort": 27017}
+ERROR:root:Failed to collect or insert log entries: Authentication failed., full error: {'ok': 0.0, 'errmsg': 'Authentication failed.', 'code': 18, 'codeName': 'AuthenticationFailed'}

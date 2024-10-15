@@ -1,0 +1,13 @@
+.dropdown-filter {
+  margin-bottom: 20px;
+}
+
+.dropdown-filter label {
+  margin-right: 10px;
+}
+
+.dropdown-filter select {
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
